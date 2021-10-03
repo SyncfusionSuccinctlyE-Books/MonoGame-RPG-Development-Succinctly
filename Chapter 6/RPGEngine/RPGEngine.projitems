@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup Label="SharedProjectFile_SccProperties">
+    <SharedProjectFile_ProjectGuid>{c4ed7b03-3a74-4a5a-98a9-ccf2aeb5ea20}</SharedProjectFile_ProjectGuid>
+    <SharedProjectFile_SccProjectName>SAK</SharedProjectFile_SccProjectName>
+    <SharedProjectFile_SccAuxPath>SAK</SharedProjectFile_SccAuxPath>
+    <SharedProjectFile_SccLocalPath>SAK</SharedProjectFile_SccLocalPath>
+    <SharedProjectFile_SccProvider>SAK</SharedProjectFile_SccProvider>
+  </PropertyGroup>
+  <PropertyGroup>
+    <MSBuildAllProjects>$(MSBuildAllProjects);$(MSBuildThisFileFullPath)</MSBuildAllProjects>
+    <HasSharedItems>true</HasSharedItems>
+    <SharedGUID>6efba8a9-a407-4029-bdd0-651d22a87386</SharedGUID>
+  </PropertyGroup>
+  <PropertyGroup Label="Configuration">
+    <Import_RootNamespace>RPGEngine</Import_RootNamespace>
+  </PropertyGroup>
+  <ItemGroup>
+    <Folder Include="$(MSBuildThisFileDirectory)Content\" />
+    <Folder Include="$(MSBuildThisFileDirectory)Interfaces\Audio\" />
+  </ItemGroup>
+  <ItemGroup>
+    <MonoGameContentReference Include="$(MSBuildThisFileDirectory)Content\Content.mgcb" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="$(MSBuildThisFileDirectory)Armor.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)BaseItem.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Chest.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Entity.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)EntityClass.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)EntitySpell.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Enums.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)FrameworkExamples\CurrencyExample.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)GlobalFunctions.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Interfaces\Audio\IAudioManager.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Interfaces\INode.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Interfaces\INodeManager.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Interfaces\Serialization\ISerailizer.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Inventory.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Item.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)JSONSerializer.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Managers\AudioManager.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Managers\BaseNodeManager.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Managers\Character.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Managers\ConversationManager.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Managers\InventoryManager.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Managers\QuestManager.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)NodeBase.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Race.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Skill.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Spell.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Spellbook.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Stat.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)SupportClasses.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Weapon.cs" />
+  </ItemGroup>
+</Project>
