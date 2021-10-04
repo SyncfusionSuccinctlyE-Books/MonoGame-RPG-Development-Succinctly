@@ -1,0 +1,217 @@
+﻿{
+  "id": 1,
+  "nodes": [
+    {
+      "id": 1,
+      "text": "Hello.",
+      "nodeFunctionType": 1,
+      "functionName": "CheckKnownNPC",
+      "functionParams": null,
+      "nodeCaseType": 0,
+      "responses": [
+        {
+          "id": 2,
+          "text": "true",
+          "nodeFunctionType": 0,
+          "functionName": null,
+          "functionParams": null,
+          "nodeCaseType": 1,
+          "responses": [
+            {
+              "id": 4,
+              "text": "Have you completed the task?",
+              "nodeFunctionType": 1,
+              "functionName": "QuestAssigned",
+              "functionParams": [ "1" ],
+              "nodeCaseType": 0,
+              "responses": [
+                {
+                  "id": 7,
+                  "text": "true",
+                  "nodeFunctionType": 0,
+                  "functionName": null,
+                  "functionParams": null,
+                  "nodeCaseType": 1,
+                  "responses": [
+                    {
+                      "id": 11,
+                      "text": "No.",
+                      "nodeFunctionType": 0,
+                      "functionName": null,
+                      "functionParams": null,
+                      "nodeCaseType": 0,
+                      "responses": [
+                        {
+                          "id": 9,
+                          "text": "Come back when you're finished.",
+                          "nodeFunctionType": 0,
+                          "functionName": null,
+                          "functionParams": null,
+                          "nodeCaseType": 0,
+                          "responses": [
+                            {
+                              "id": 15,
+                              "text": "Good bye.",
+                              "nodeFunctionType": 0,
+                              "functionName": null,
+                              "functionParams": null,
+                              "nodeCaseType": 0,
+                              "responses": null
+                            }
+                          ]
+                        }
+                      ]
+                    },
+                    {
+                      "id": 12,
+                      "text": "Yes.",
+                      "nodeFunctionType": 2,
+                      "functionName": "CheckForQuestCompletion",
+                      "functionParams": [ "1" ],
+                      "nodeCaseType": 0,
+                      "responses": [
+                        {
+                          "id": 11,
+                          "text": "Very good. Here is your reward.",
+                          "nodeFunctionType": 2,
+                          "functionName": "CompleteQuest",
+                          "functionParams": [ "1" ],
+                          "nodeCaseType": 1,
+                          "responses": [
+                            {
+                              "id": 15,
+                              "text": "Good bye.",
+                              "nodeFunctionType": 0,
+                              "functionName": null,
+                              "functionParams": null,
+                              "nodeCaseType": 0,
+                              "responses": null
+                            }
+                          ]
+                        },
+                        {
+                          "id": 12,
+                          "text": "You've not done what I asked. Come back when you're finished.",
+                          "nodeFunctionType": 0,
+                          "functionName": null,
+                          "functionParams": null,
+                          "nodeCaseType": 2,
+                          "responses": [
+                            {
+                              "id": 15,
+                              "text": "Good bye.",
+                              "nodeFunctionType": 0,
+                              "functionName": null,
+                              "functionParams": null,
+                              "nodeCaseType": 0,
+                              "responses": null
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "id": 8,
+                  "text": "false",
+                  "nodeFunctionType": 0,
+                  "functionName": null,
+                  "functionParams": null,
+                  "nodeCaseType": 2,
+                  "responses": [
+                    {
+                      "id": 13,
+                      "text": "Good bye.",
+                      "nodeFunctionType": 0,
+                      "functionName": null,
+                      "functionParams": null,
+                      "nodeCaseType": 0,
+                      "responses": null
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": 3,
+          "text": "false",
+          "nodeFunctionType": 0,
+          "functionName": null,
+          "functionParams": null,
+          "nodeCaseType": 2,
+          "responses": [
+            {
+              "id": 5,
+              "text": "Do you have a quest for me?",
+              "nodeFunctionType": 2,
+              "functionName": "HasQuest",
+              "functionParams": null,
+              "nodeCaseType": 0,
+              "responses": [
+                {
+                  "id": 9,
+                  "text": "Yes. I need you to <Quest.Description>.",
+                  "nodeFunctionType": 0,
+                  "functionName": null,
+                  "functionParams": null,
+                  "nodeCaseType": 1,
+                  "responses": [
+                    {
+                      "id": 14,
+                      "text": "I don't have time for that.",
+                      "nodeFunctionType": 0,
+                      "functionName": null,
+                      "functionParams": null,
+                      "nodeCaseType": 0,
+                      "responses": null
+                    },
+                    {
+                      "id": 15,
+                      "text": "Sure, I'd be glad to.",
+                      "nodeFunctionType": 2,
+                      "functionName": "AssignQuest",
+                      "functionParams": [ "1" ],
+                      "nodeCaseType": 0,
+                      "responses": null
+                    }
+                  ]
+                },
+                {
+                  "id": 10,
+                  "text": "No, I'm sorry.",
+                  "nodeFunctionType": 0,
+                  "functionName": null,
+                  "functionParams": null,
+                  "nodeCaseType": 2,
+                  "responses": [
+                    {
+                      "id": 16,
+                      "text": "Good bye.",
+                      "nodeFunctionType": 0,
+                      "functionName": null,
+                      "functionParams": null,
+                      "nodeCaseType": 0,
+                      "responses": null
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "id": 6,
+              "text": "Good bye.",
+              "nodeFunctionType": 0,
+              "functionName": null,
+              "functionParams": null,
+              "nodeCaseType": 0,
+              "responses": null
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
