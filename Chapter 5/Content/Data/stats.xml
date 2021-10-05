@@ -1,0 +1,28 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Stats>
+	<Stat>
+		<Name>Strength</Name>
+		<Abbreviation>Str</Abbreviation>
+		<Description>Physical strength</Description>
+	</Stat>
+	<Stat>
+		<Name>Dexterity</Name>
+		<Abbreviation>Dex</Abbreviation>
+		<Description>Manual dexterity</Description>
+	</Stat>
+	<Stat>
+		<Name>Agility</Name>
+		<Abbreviation>Agi</Abbreviation>
+		<Description>Overall body dexterity</Description>
+	</Stat>
+	<Stat>
+		<Name>Constitution</Name>
+		<Abbreviation>Con</Abbreviation>
+		<Description>Ability to withstand damage</Description>
+	</Stat>
+	<Stat>
+		<Name>Intelligence</Name>
+		<Abbreviation>Int</Abbreviation>
+		<Description>Ability to learn and retain information</Description>
+	</Stat>
+</Stats>

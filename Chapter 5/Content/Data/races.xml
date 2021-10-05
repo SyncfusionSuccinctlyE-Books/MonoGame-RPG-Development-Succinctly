@@ -1,0 +1,19 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Races>
+	<Race>
+		<Name>Human</Name>
+		<Description>Decent at everything</Description>
+	</Race>
+	<Race>
+		<Name>Elf</Name>
+		<Description>Smart, good at magic and outdoors stuff</Description>
+	</Race>
+	<Race>
+		<Name>Dwarf</Name>
+		<Description>Strong, tough, fighter type</Description>
+	</Race>
+	<Race>
+		<Name>Halfling</Name>
+		<Description>Small, nimble, thief type</Description>
+	</Race>
+</Races>
