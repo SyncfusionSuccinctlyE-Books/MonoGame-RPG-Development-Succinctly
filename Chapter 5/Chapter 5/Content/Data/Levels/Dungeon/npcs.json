@@ -1,0 +1,68 @@
+﻿{
+  "$type": "System.Collections.Generic.List`1[[MonoGameRPG.EntityGameObject, Chapter 5]], mscorlib",
+  "$values": [
+    {
+      "$type": "MonoGameRPG.EntityGameObject, Chapter 5",
+      "EntityType": 3,
+      "Entity": {
+        "$type": "RPGEngine.Entity, Chapter 5",
+        "ID": 1,
+        "Name": "Goblin",
+        "ClassID": "3",
+        "Level": 1,
+        "RaceID": "1",
+        "BaseHP": 10,
+        "Alignment": 0,
+        "Sex": 0,
+        "Age": 0,
+        "PortraitFileName": null
+      },
+      "Target": null,
+      "GameSpriteFileName": "Sprites/Test/goblin",
+      "Type": 1,
+      "StartLocation": "19, 5"
+    },
+    {
+      "$type": "MonoGameRPG.EntityGameObject, Chapter 5",
+      "EntityType": 3,
+      "Entity": {
+        "$type": "RPGEngine.Entity, Chapter 5",
+        "ID": 2,
+        "Name": "Goblin",
+        "ClassID": "3",
+        "Level": 1,
+        "RaceID": "1",
+        "BaseHP": 10,
+        "Alignment": 0,
+        "Sex": 0,
+        "Age": 0,
+        "PortraitFileName": null
+      },
+      "Target": null,
+      "GameSpriteFileName": "Sprites/Test/goblin",
+      "Type": 1,
+      "StartLocation": "4, 7"
+    },
+    {
+      "$type": "MonoGameRPG.EntityGameObject, Chapter 5",
+      "EntityType": 3,
+      "Entity": {
+        "$type": "RPGEngine.Entity, Chapter 5",
+        "ID": 3,
+        "Name": "Goblin",
+        "ClassID": "3",
+        "Level": 1,
+        "RaceID": "1",
+        "BaseHP": 10,
+        "Alignment": 0,
+        "Sex": 0,
+        "Age": 0,
+        "PortraitFileName": null
+      },
+      "Target": null,
+      "GameSpriteFileName": "Sprites/Test/goblin",
+      "Type": 1,
+      "StartLocation": "12, 10"
+    }
+  ]
+}
