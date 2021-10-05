@@ -1,0 +1,47 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.30523.141
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Chapter 5", "Chapter 5\Chapter 5.csproj", "{A5D2E82D-0326-42F4-8A4C-A033BD4F8BA5}"
+EndProject
+Project("{D954291E-2A0B-460D-934E-DC6B0785DB48}") = "RPGEngine", "RPGEngine\RPGEngine.shproj", "{65DD11B6-9B7C-481E-B505-01980BCE81A9}"
+EndProject
+Global
+	GlobalSection(SharedMSBuildProjectFiles) = preSolution
+		RPGEngine\RPGEngine.projitems*{65dd11b6-9b7c-481e-b505-01980bce81a9}*SharedItemsImports = 13
+		RPGEngine\RPGEngine.projitems*{a5d2e82d-0326-42f4-8a4c-a033bd4f8ba5}*SharedItemsImports = 4
+	EndGlobalSection
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{A5D2E82D-0326-42F4-8A4C-A033BD4F8BA5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A5D2E82D-0326-42F4-8A4C-A033BD4F8BA5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A5D2E82D-0326-42F4-8A4C-A033BD4F8BA5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A5D2E82D-0326-42F4-8A4C-A033BD4F8BA5}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {01EFC72C-3868-4D1F-84E1-0160B4CC8C7B}
+	EndGlobalSection
+	GlobalSection(TeamFoundationVersionControl) = preSolution
+		SccNumberOfProjects = 4
+		SccEnterpriseProvider = {4CA58AB2-18FA-4F8D-95D4-32DDF27D184C}
+		SccTeamFoundationServer = https://dev.azure.com/blacksunsolutionsltd
+		SccProjectUniqueName0 = RPGEngine\\RPGEngine.projitems
+		SccProjectTopLevelParentUniqueName0 = RPGEngine\\RPGEngine.shproj
+		SccProjectName0 = RPGEngine
+		SccLocalPath0 = RPGEngine
+		SccProjectUniqueName1 = Chapter\u00205\\Chapter\u00205.csproj
+		SccProjectName1 = Chapter\u00205
+		SccLocalPath1 = Chapter\u00205
+		SccLocalPath2 = .
+		SccProjectUniqueName3 = RPGEngine\\RPGEngine.shproj
+		SccProjectName3 = RPGEngine
+		SccLocalPath3 = RPGEngine
+	EndGlobalSection
+EndGlobal
