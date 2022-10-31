@@ -1,8 +1,8 @@
 # MonoGame Role-Playing Game Development Succinctly
 
-This is the companion repo for [*MonoGame Role-Playing Game Development Succinctly*](https://www.syncfusion.com/succinctly-free-ebooks) by Jim Perry and Charles Humphrey. Published by Syncfusion.
+This is the companion repo for [*MonoGame Role-Playing Game Development Succinctly*](https://www.syncfusion.com/succinctly-free-ebooks/monogame-role-playing-game-development-succinctly) by Jim Perry and Charles Humphrey. Published by Syncfusion.
 
-[![cover](https://github.com/SyncfusionSuccinctlyE-Books/MonoGame-RPG-Development-Succinctly/blob/master/cover.png)](https://www.syncfusion.com/succinctly-free-ebooks)
+[![cover](https://github.com/SyncfusionSuccinctlyE-Books/MonoGame-RPG-Development-Succinctly/blob/master/cover.png)](https://www.syncfusion.com/succinctly-free-ebooks/monogame-role-playing-game-development-succinctly)
 
 ## Looking for more _Succinctly_ titles?
 
